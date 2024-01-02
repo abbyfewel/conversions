@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 2; // initializing x and y
+  int y = 5;
+  cout << "x = " << x << ", y = " << y;
+  int temp; // variable used to swap x and y
+  temp = x; // temp = 2
+  x = y; // x = 5
+  y = temp; // y = 2
+  cout << "\nAfter swap, x = " << x << ", y = " << y; // swapped
+}
