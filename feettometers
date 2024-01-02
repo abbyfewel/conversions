@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  float feet; // float to account for decimals
+  cout << "Enter length in feet: ";
+  cin >> feet;
+  float meters = feet*0.3048; // initializing meters using input
+  cout << "\n" << feet << " feet is " << meters << " meters.";
+}
