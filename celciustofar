@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  float temperature; // initializing celcius
+  cout << "Enter temperature in degrees Celcius: ";
+  cin >> temperature; // reading user input for celcius
+  float tempFahrenheit= (temperature*(1.8))+32; // initializing fahrenheit
+  cout << "\n" << temperature << " in Fahrenheit is " << tempFahrenheit;  // printing fahrenheit
+}
